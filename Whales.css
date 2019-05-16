@@ -1,0 +1,143 @@
+/*
+* Mia Buonadonna
+* May 17, 2019
+* Save the Whales
+*/
+
+/* The universal selector */
+
+* {
+    
+ margin: 0;
+ padding: 0;
+     
+}
+
+/* This is where I put the body elements, which is where the font, font size, and the background color are specified. */
+body {
+
+    background-color: cornflowerblue;
+    font-family: monospace;
+    font-size: 125%
+}
+
+/* This is where I made the h1 have padding around the text, have a larger size, be bold, and be in the center of the page. */
+h1 {
+    
+    font-size: 300%;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    
+}
+
+/* This is where I made the subheadings', or the h2's, size.  I also made it have padding, and I made it bold. */
+h2 {
+    
+    font-size: 200%;
+    font-weight: bold;
+    padding: 5px;
+    
+}
+
+/* This is where I made the h3 and h4 bold and with padding. */
+h3, h4 {
+    
+    font-weight: bold;
+    padding: 5px;
+    
+}
+
+/* This is where I made the header section light blue.  I also added a border on the bottom to make a line across the page, and I added space around the section by adding a margin. */
+header {
+    
+    background-color: lightblue;
+    margin: 10px;
+    border-bottom: 5px solid navy;
+    
+}
+
+/* This is where I made the main section with information its color.  I also made it have a margin aith padding to give space n the sides and all aroudn the text. */
+main {
+    
+    background-color: lightskyblue;
+    margin: 10px;
+    padding: 7px;
+    
+}
+
+/* This is the footer section, and I made the this section a different color with a margin and padding to give it space around the section.  I also gave a border to the top to add a line under the information and above the resources used. */
+footer {
+    
+    background-color: lightblue;
+    border-top: 5px solid navy;
+    margin: 10px;
+    padding: 7px;
+    
+}
+
+/* This is where I changed the size of the pictures in the row. I also added a border around them as well as a margin to add space around the pictures. */
+img {
+    
+    width: 249px;
+    height: 166px;
+    margin: 10px;
+    border: 4px solid lightblue
+    
+}
+
+/* This is where I changed the size of the first pucture on the page.  I also floated it to the right and added a margin.  I also made the border blue and dashed.  */
+#whale3 {
+    
+    float: left;
+    height: 230px;
+    width: 350px;
+    border: 3px dashed blue;
+    margin: 15px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    
+}
+
+/* This is where I changed the size of the last pucture on the page.  I also floated it to the right and added a margin.  I also made the border blue and dashed. */
+#whale7 {
+    
+    float: right;
+    height: 200px;
+    width: 350px;
+    margin-right: 25px;
+    border: 3px dashed blue;
+    
+}
+
+/* This is where I changed the styles of my visited and nonvisited links. */
+
+a:link {
+
+    color: cornflowerblue;
+    text-decoration: none;
+
+}
+
+a:visited {
+
+    color: navy;
+
+}
+
+/* This is where I changed the style of my links when they are hovered over. */
+
+a:hover, a:focus {
+    
+    color: grey;
+    font-size: 150%;
+    
+}
+
+/* This is where I changed the style of my links when they are active. */
+
+a:active {
+    
+    color: dodgerblue;
+    
+}
